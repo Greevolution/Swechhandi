@@ -1,0 +1,525 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0%;
+    background-color: #ffffff;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        position: absolute;
+        right: 2vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        height: 5vw;
+    }
+    .top {
+        height: 40vw;
+    }
+    .topdiv {
+        position: relative;
+        top: -5vw;
+    }
+    a.nav-link {
+        font-size: 1.3vw;
+        margin: 1vw;
+        color: rgb(240, 240, 245) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .logoname {
+        position: relative;
+        left: 1vw;
+        top: 0vw;
+        font-size: 3vw;
+        color: white;
+    }
+    .navbar-brand img {
+        width: 7vw;
+        position: relative;
+        top: 1.5vw;
+        border-radius: 9vw;
+    }
+}
+
+
+/* navbar */
+
+.nav-item a:hover {
+    color: rgb(131, 131, 131) !important;
+}
+
+section {
+    height: fit-content;
+}
+
+.logoname {
+    position: relative;
+    left: 5vw;
+    top: -2vw;
+    font-size: 2vw;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 4vw;
+    position: relative;
+    top: 1.5vw;
+    border-radius: 9vw
+}
+
+.navbar {
+    padding: 2vw 0;
+}
+
+.top {
+    background-image: linear-gradient(rgb(0 0 0), rgb(63 158 175));
+}
+
+
+/* ----------------------Carousel----------------------------- */
+
+.d-none {
+    color: rgb(247, 245, 245);
+    opacity: 1;
+}
+
+h5 {
+    color: white;
+    opacity: unset !important;
+}
+
+.carousel-caption {
+    font-style: unset;
+}
+
+.topdiv {
+    background-image: linear-gradient(rgba(3, 7, 57, 0.6), rgba(3, 63, 78, 0.6));
+}
+
+.d-block .w-100 img {
+    opacity: 0.4;
+}
+
+
+/* ------------------second part -------------------------*/
+
+.img-fluid {
+    opacity: 0.3;
+    background-color: rgb(54, 34, 34);
+    height: 50rem;
+    width: 100vw;
+    height: 43vw;
+}
+
+.imgdiv {
+    background-color: #271919;
+    height: 43vw;
+    position: relative;
+}
+
+.container1 {
+    margin: 0%;
+    position: relative;
+}
+
+.p1 {
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    top: 8vw;
+    left: 17vw;
+    right: 17vw;
+    font-weight: 500;
+    letter-spacing: 0em;
+    overflow: hidden;
+}
+
+.p2 {
+    color: whitesmoke;
+    position: absolute;
+    top: 18vw;
+    left: 21vw;
+    text-align: center;
+    font-size: 1.8vw;
+    width: 56vw;
+}
+
+
+/* ---------------------------------second-div-------------------------- */
+
+.seconddiv {
+    width: 100%;
+    background-color: rgb(219 247 221);
+    padding-top: 6.3%;
+    padding-bottom: 5%;
+    background-image: linear-gradient(to bottom right, rgb(168 252 176), rgb(113 224 235));
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 0.5rem;
+    margin-top: 1vw;
+    text-align: left;
+    width: 22rem;
+}
+
+.img-fluid {
+    position: relative;
+}
+
+img.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+@media (max-width: 480px) {
+    img.card-img-top {
+        height: 45vw;
+    }
+}
+
+
+/* --------------------third div--------------------- */
+
+.p3 {
+    font-size: 5vw;
+    position: relative;
+    bottom: 2vw;
+    /* font-family: 'Langar', cursive; */
+}
+
+.p3 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.mytextdiv {
+    color: antiquewhite;
+    width: 45vw;
+    position: relative;
+    top: -36vw;
+    right: -50vw;
+    font-size: 1.8vw;
+}
+
+.imgdiv2 {
+    background-color: black;
+    height: 41vw;
+}
+
+.imgdiv3 img {
+    width: 37vw;
+    height: 31vw;
+    position: relative;
+    top: -61vw;
+    left: 6vw;
+    border: 0.4vw outset;
+}
+
+.imgdiv4 {
+    width: 42vw;
+    height: 33vw;
+    position: relative;
+    top: -60vw;
+    left: 1vw;
+}
+
+
+/* -------------------fourth div---------------------- */
+
+.fourthdiv {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-image: linear-gradient(to bottom right, rgb(254 254 254), #e0e0e0);
+    width: 100vw;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2vw !important;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2vw;
+    font-size: 3vw !important;
+    font-weight: 600;
+}
+
+.col-lg-3 {
+    padding: 1%;
+    margin: 1vw auto;
+}
+
+@media (min-width: 992px) {
+    .shadow-lg {
+        display: inherit;
+    }
+    .bg-white {
+        background-color: #fff!important;
+        display: inherit;
+        padding: 2vw;
+    }
+    .col-lg-3 {
+        border-right: 1px solid gray;
+        padding: 1vw 2vw;
+    }
+}
+
+.row.row2 {
+    width: fit-content;
+    margin: auto;
+    box-shadow: 10px 10px 5px grey;
+    background-color: white;
+}
+
+
+/* 
+-------------------png div------------------- */
+
+.secondlast {
+    background-color: #ddfbd3;
+    height: 36vw;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-image: radial-gradient(circle, #fefefe, #e0f7fa, #b2ebf2);
+}
+
+@media screen and (max-width: 768px) {
+    .secondlast {
+        height: 100vw;
+    }
+    .secondlast .pngimg img {
+        border-radius: 30vw;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .secondlast .pngimg img {
+        border-radius: 22vw;
+    }
+}
+
+.pngtxt.mydiv {
+    width: 44w;
+}
+
+.mydiv .letter {
+    font-size: 2.3vw;
+    color: rgb(39, 38, 38);
+    font-weight: 200;
+    width: 40vw;
+}
+
+.secondlast .pngimg img {
+    width: 60%;
+    margin: 3vw auto;
+}
+
+.pngtxt {
+    text-align: center;
+    margin: 3vw auto;
+    font-size: 1.8vw;
+}
+
+.pnglink .dropbtn {
+    color: darkslategray;
+    margin: auto;
+    font-size: 1.8vw;
+    border: 2px solid;
+}
+
+.pnglink a:hover {
+    color: rgb(102, 102, 102);
+}
+
+.dropbtn {
+    border: 1px solid;
+    padding: 1vw 2vw;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top: 2vw;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-size: 1.5vw;
+    width: 21.2vw;
+    margin-top: 1vw;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #21778d;
+}
+
+
+/* -------------------footer----------------- */
+
+.titaldiv {
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    padding-bottom: 3vw;
+}
+
+.tit2div {
+    font-size: 1.6vw;
+    text-align: center;
+    font-size: 1.8vw;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: -2vw;
+    font-size: 3vw;
+}
+
+.contactdiv {
+    position: relative;
+    top: -6vw;
+    text-align: center;
+}
+
+footer {
+    background-color: #002633;
+    text-align: center;
+    padding-right: 1vw;
+    color: rgb(153, 150, 150);
+    height: 10vw;
+    padding-top: 3vw;
+}
+
+footer a {
+    font-size: 1.6vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+    margin-top: 2vw;
+}
+
+#contact {
+    margin-top: em;
+}
+
+#footer {
+    position: relative;
+    top: 1vw
+}
+
+.bottem-footer {
+    display: inline-block;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .bottem-footer {
+        padding: 2vw;
+    }
+    #footer {
+        position: relative;
+        top: 2vw;
+        margin: 3vw;
+    }
+}
+
+
+/* ----------------------animation------------------ */
+
+.ml9 {
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    top: 8vw;
+    left: 13vw;
+    right: 13vw;
+    font-weight: 500;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
+#status {
+    position: absolute;
+    width: 60%;
+    max-width: 500px;
+    max-height: 100px;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.select {
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+}

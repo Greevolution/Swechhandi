@@ -1,0 +1,37 @@
+{
+  "name": "greevolution",
+  "version": "1.0.0",
+  "description": "Collabrative Platform project",
+  "main": "server.js",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.5",
+    "mysql": "^2.18.1",
+    "natives": "^1.1.6",
+    "ol": "^6.5.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"parcel map.html\"",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greevolution/Back-End-architecture.git"
+  },
+  "author": "Sharlene Kumbhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Greevolution/Back-End-architecture/issues"
+  },
+  "homepage": "https://github.com/Greevolution/Back-End-architecture#readme",
+  "keywords": []
+}
