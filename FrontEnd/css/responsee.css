@@ -4,20 +4,10 @@
  * Copyright 2018, Vision Design - graphic zoo
  * Free to use under the MIT license.
 */
-* {  
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
-  margin:0;	
-}
-body {
-  background:none repeat scroll 0 0 #eeeeee;
-  font-size:16px;
-  font-family:"Open Sans",Arial,sans-serif;
-  color:#444;
-}
+*
+
 h1,h2,h3,h4,h5,h6 {
-  color:#152732;
+  
   font-weight: normal;
   line-height: 1.3;
   margin:0.5rem 0;  
@@ -30,7 +20,7 @@ h5 {font-size:1.1rem;}
 h6 {font-size:0.9rem;}    
 a, a:link, a:visited, a:hover, a:active {
   text-decoration:none;
-  color:#9BB800;
+  
   transition:color 0.20s linear 0s;
   -o-transition:color 0.20s linear 0s;
   -ms-transition:color 0.20s linear 0s;
@@ -113,11 +103,7 @@ mark {
 .size-1520 .line {max-width:95rem;}
 .size-960.align-content-left .line,.size-1140.align-content-left .line,.size-1280.align-content-left .line,.size-1520.align-content-left .line {margin-left:0;}
 form {line-height:1.4;}
-nav {
-  display:block;
-  width:100%;
-  background:#152732;
-}
+
 .line:after, nav:after, .center:after, .box:after, .margin:after, .margin2x:after {
   clear:both;
   content:".";

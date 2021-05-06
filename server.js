@@ -10,7 +10,7 @@ const Path = require('path');
 //app.use(express.static(Path.join(__dirname,'css')));
 app.use(express.static("FrontEnd"));
 app.use(express.static("Map"));
-const PORT=process.env.PORT || 1234 ;
+const PORT=process.env.PORT || 3000 ;
 const server=http.createServer(app);
 const io=socketio(server);
 

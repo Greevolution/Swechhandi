@@ -24,18 +24,20 @@
     <!-- icons -->
     <script src="https://kit.fontawesome.com/a8a95a0d5d.js" crossorigin="anonymous"></script>
     <script>
-        function clickCounter() {
-            if (typeof(Storage) !== "undefined") {
-                if (localStorage.clickcount) {
-                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
-                } else {
-                    localStorage.clickcount = 1;
-                }
-                document.getElementById("result").innerHTML = "We have " + localStorage.clickcount + " interested people.";
+    function clickCounter() {
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.clickcount == 0) {
+                localStorage.clickcount = 53;
+            } else if (localStorage.clickcount) {
+                localStorage.clickcount = Number(localStorage.clickcount) + 1;
             } else {
-                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+                localStorage.clickcount = 1;
             }
+            document.getElementById("result").innerHTML = "We have " + localStorage.clickcount + " interested people.";
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
         }
+    }
     </script>
     <script>
         function clickCount() {
@@ -110,21 +112,21 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/crousal1.jpg" class="d-block w-100" alt="..." style="height: 40vw;opacity: 0.4;">
+                        <img src="images/crousal1.jpg" class="d-block w-100" alt="..." style="height: 45vw;opacity: 0.4;">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>REDUCE</h2>
                             <p>The best way to manage waste is to not produce it. This can be done by being aware of a few guidelines</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/crousal2.jpg" class="d-block w-100" alt="..." style="height: 40vw;opacity: 0.4;">
+                        <img src="images/crousal2.jpg" class="d-block w-100" alt="..." style="height: 45vw;opacity: 0.4;">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>REUSE</h2>
                             <p> It makes economic and environmental sense to reuse products.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/crousal3.jpg" class="d-block w-100" alt="..." style="height: 40vw;opacity: 0.4;">
+                        <img src="images/crousal3.jpg" class="d-block w-100" alt="..." style="height: 45vw;opacity: 0.4;">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>RECYCLE</h2>
                             <p>Recycling is a series of steps that takes a used material and processes, remanufactures, and sells it as a new product.</p>
@@ -272,18 +274,16 @@
 
 
             <div class="dropdown pnglink">
-                <a href="#" class="dropbtn">Do you want to join</a>
+                <a class="dropbtn">Do you want to join</a>
                 <div class="dropdown-content">
                     <a onclick="clickCounter()">YES</a>
                     <a onclick="clickCount()">NO</a>
                 </div>
             </div>
             <p></p>
-            <div style="font-size: 30px;
-            padding: 30px;" id="result"></div>
+            <div id="result"></div>
         </div>
-        <div style="font-size: 30px;
-        padding: 30 px;" id="res"></div>
+        <div id="res"></div>
 
     </div>
 

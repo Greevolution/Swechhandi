@@ -4,7 +4,6 @@
   "description": "Collabrative Platform project",
   "main": "server.js",
   "dependencies": {
-    "concurrently": "^6.0.2",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "moment": "^2.29.1",
