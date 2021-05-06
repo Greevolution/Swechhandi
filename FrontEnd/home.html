@@ -25,10 +25,9 @@
     <script src="https://kit.fontawesome.com/a8a95a0d5d.js" crossorigin="anonymous"></script>
     <script>
     function clickCounter() {
+      localStorage.clickcount=24;
         if (typeof(Storage) !== "undefined") {
-            if (localStorage.clickcount == 0) {
-                localStorage.clickcount = 53;
-            } else if (localStorage.clickcount) {
+             if (localStorage.clickcount) {
                 localStorage.clickcount = Number(localStorage.clickcount) + 1;
             } else {
                 localStorage.clickcount = 1;
@@ -90,7 +89,7 @@
                             <a class="nav-link" href="#container1">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Payments">Donate</a>
+                            <a class="nav-link" href="https://pages.razorpay.com/pl_H61MVX96T7Jkof/view">Donate</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/plans">Plans</a>
@@ -226,8 +225,8 @@
 
 
                 <div class="col-lg-3 col-md-6">
-                    <h2><b><div class="counter" data-target="300">0</div></b></h2>
-                    <h4>Ecobricks made (kg)</h4>
+                    <h2><b><div class="counter" data-target="10">0</div></b></h2>
+                    <h4>Ecobricks made</h4>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
@@ -303,7 +302,7 @@
                         </div>
                         <div class="bottem-footer">
                             <div id="footer">Follow Us On</div>
-                            <a href="instragram.com"><i class="fab fa-instagram-square"></a></i> <a href="facebook.com"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/swechhandi/"><i class="fab fa-instagram-square"></a></i> <a href="https://www.facebook.com/swechhandi"><i class="fab fa-facebook-square"></i></a>
                         </div>
                     </div>
 
